@@ -1,0 +1,131 @@
+.par{
+    position: relative;
+}
+.par div{
+    position: absolute;
+    top: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
+#jix{
+    background-color:black;
+    padding:18px;
+    color:white
+}
+#jix:link{
+    text-decoration: none;
+}
+#jix:hover {
+    background-color: lightgray;
+    color: black; 
+    border-radius: 5px; 
+}
+.hello1{
+    display: inline-block;
+    filter: grayscale(70%);
+    margin-left: 50px;
+}
+.hello2{
+    display: inline-block;
+    filter: grayscale(70%);
+    margin-left: 20px;
+    position: relative;
+}
+.hello2:hover .hel2{
+    opacity: 1;
+}
+.hel1{
+    position: absolute;
+    top: 0px;
+    background-color: black;
+    color: white;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    left:0px;
+}
+.hel5{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+}
+.hel5:hover{
+    background-color: grey;
+}
+.hello5:hover .hel5{
+    opacity: 1;
+}
+.hel2{
+    position: absolute;
+    top: 30%;
+    left: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    opacity: 0;
+}
+.hel2:hover{
+    background-color: grey;
+}
+.hello3{
+    display: inline-block;
+    filter: grayscale(70%);
+    margin-left: 20px;
+}
+.hello4{
+    position: relative;
+    display: inline-block;
+    filter: grayscale(70%);
+    margin-left: 20px;
+}
+.sub{
+    margin-left: 45px;
+    background-color: black;
+    height: 280px;
+    width: 840px;
+    display: inline-block;
+}
+#hov{
+    margin-top: 20px;
+    margin-left:20px;
+    background-color:rgb(233, 84, 15);
+    padding:10px;
+    border:0px solid white
+}
+#hov:hover{
+    background-color: grey;
+}
+.contact{
+    display: flex; /* Use flexbox */
+    margin-left: 45px;
+    background-color: rgb(226, 220, 220);
+    height: 480px;
+    width: 840px;
+}
+#sub2{
+    margin-left:20px;
+    width:260px;
+    height:27px;
+    background-color: black;
+    color: white;
+    border: 0px solid white;
+}
+#sub2:hover{
+    background-color: rgb(238, 228, 228);
+}
+#dis2:hover{
+    opacity: 0.5;
+}
+#foot{
+    height: 100px;
+    width: 840px;
+    background-color: black;
+    margin-left: 45px;
+}
